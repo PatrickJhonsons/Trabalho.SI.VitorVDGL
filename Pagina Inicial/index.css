@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.beirada{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+section{
+    padding: 4rem 4%;
+}
+
+section > .beirada{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
