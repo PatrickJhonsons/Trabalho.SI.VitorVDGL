@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #000;
     height: 100vh;
 }
 
@@ -26,7 +26,14 @@ section>.beirada {
 }
 
 section a {
+    color: #adadad;
+    text-decoration: none;
+    display: inline-block;
+}
+
+section a:hover{
     color: fff;
+    transform: scale(1.00);
 }
 
 section nav ul {
@@ -38,14 +45,12 @@ section nav ul li {
     padding: 0 4rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+div a button {
+    padding: 1rem 4rem;
+    font-size: 1,8rem;
+    font-weight: 60rem;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
