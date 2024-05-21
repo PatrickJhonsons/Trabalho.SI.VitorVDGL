@@ -1,19 +1,51 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sedan SC", serif;
+}
+
+body {
     background-color: black;
     height: 100vh;
 }
 
-.beirada{
+.beirada {
     max-width: 120rem;
     margin: 0 auto;
 }
 
-section{
+section {
     padding: 4rem 4%;
 }
 
-section > .beirada{
+section>.beirada {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+section a {
+    color: fff;
+}
+
+section nav ul {
+    list-style-type: none;
+}
+
+section nav ul li {
+    display: inline-block;
+    padding: 0 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
