@@ -11,7 +11,7 @@ body {
 }
 
 .beirada {
-    max-width: 120rem;
+    max-width: 128rem;
     margin: 0 auto;
 }
 
@@ -29,11 +29,12 @@ section a {
     color: #adadad;
     text-decoration: none;
     display: inline-block;
+    transition: .2s;
 }
 
-section a:hover{
-    color: fff;
-    transform: scale(1.00);
+section a:hover {
+    color: #fff;
+    transform: scale(1.05);
 }
 
 section nav ul {
@@ -47,10 +48,23 @@ section nav ul li {
 
 div a button {
     padding: 1rem 4rem;
-    font-size: 1,8rem;
+    font-size: 1, 8rem;
     font-weight: 60rem;
-    background-color: #00ff08;
+    background-color: #90ee90;
     border: 0;
-    border-radius: 3px;
+    border-radius: 3rem;
     cursor: pointer;
 }
+
+header .btn-contato button:hover {
+    box-shadow: 0rem 0rem 0,8rem #00ff08;
+}
+
+
+
+
+
+
+
+
+
