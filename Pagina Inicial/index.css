@@ -6,8 +6,11 @@
 }
 
 body {
-    background-color: #000;
     height: 100vh;
+    background-color: #81D092;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2368c173' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23415f30' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%235bbc6e' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23445b2b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2371b367' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23215526' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2367ab5f' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%231a5423' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%2364af5f' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%234e4b1d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%2362a255' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23524718' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .beirada {
@@ -16,7 +19,7 @@ body {
 }
 
 section {
-    padding: 4rem 4%;
+    padding: 3rem 4%;
 }
 
 section>.beirada {
@@ -26,10 +29,10 @@ section>.beirada {
 }
 
 section a {
-    color: #adadad;
+    color: #070404;
     text-decoration: none;
     display: inline-block;
-    transition: .2s;
+    transition: 1.5;
 }
 
 section a:hover {
@@ -43,28 +46,9 @@ section nav ul {
 
 section nav ul li {
     display: inline-block;
-    padding: 0 4rem;
-}
-
-div a button {
-    padding: 1rem 4rem;
-    font-size: 1, 8rem;
-    font-weight: 60rem;
-    background-color: #90ee90;
-    border: 0;
-    border-radius: 3rem;
-    cursor: pointer;
+    padding: 0 2.5rem;
 }
 
 header .btn-contato button:hover {
-    box-shadow: 0rem 0rem 0,8rem #00ff08;
+    box-shadow: 0rem 0rem 0, 8rem #00ff08;
 }
-
-
-
-
-
-
-
-
-
