@@ -17,7 +17,7 @@ body {
 }
 
 .beirada {
-    max-width: 12.8rem;
+    max-width: 128rem;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -30,14 +30,14 @@ section.navbar {
     width: 100%;
     background-color: #C8E6C9;
     z-index: 1000;
-    padding: 0.1rem;
+    padding: 1rem;
 }
 
 section a {
     color: #070404;
     text-decoration: none;
     display: inline-block;
-    transition: 0.15rem;
+    transition: 1.5;
 }
 
 section a:hover {
@@ -51,7 +51,7 @@ section nav ul {
 }
 
 section nav ul li {
-    padding: 0 0.15rem;
+    padding: 0 1.5rem;
 }
 
 .conteudo {
@@ -59,8 +59,8 @@ section nav ul li {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    padding-top: 0.6rem;
-    padding-bottom: 0.4rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
     text-align: center;
     color: #070404;
 }
@@ -68,9 +68,9 @@ section nav ul li {
 .grid-centralizada {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.2rem;
+    gap: 2rem;
     align-items: center;
-    max-width: 8rem;
+    max-width: 800px;
     width: 100%;
 }
 
@@ -81,7 +81,7 @@ section nav ul li {
 .foto img {
     max-width: 100%;
     height: auto;
-    border-radius: 3rem;
+    border-radius: 30rem;
 }
 
 .rodape {
@@ -93,31 +93,31 @@ section nav ul li {
     width: 100%;
     background-color: #C8E6C9;
     color: #fff;
-    padding: 0.1rem;
+    padding: 1rem;
     z-index: 1000;
 }
 
 .redes-sociais {
     display: flex;
-    gap: 0.2rem;
+    gap: 2rem;
 }
 
 .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    max-width: 12rem;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1200px;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 2rem);
+    height: calc(100vh - 200px);
 }
 
 .subgrid {
     display: grid;
-    gap: 0.1rem;
+    gap: 10px;
     text-align: center;
 }
 
@@ -129,31 +129,31 @@ section nav ul li {
 .video-wrapper {
     position: relative;
     width: 100%;
-    max-width: 4rem;
-    border-radius: 0.3rem;
+    max-width: 40rem;
+    border-radius: 3rem;
     overflow: hidden;
-    padding-top: 0.3rem;
+    padding-top: 3rem;
 }
 
 video {
-    width: 5%;
+    width: 50%;
     height: auto;
     display: block;
-    border-radius: 3px;
+    border-radius: 30px;
 }
 
 p {
-    font-size: 0.12rem;
+    font-size: 1.2rem;
 }
 
 li a {
-    font-size: 0.12rem;
+    font-size: 1.2rem;
 }
 
 .grid-formacao {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.2rem;
+    gap: 20px;
     justify-items: center;
 }
 
@@ -161,9 +161,9 @@ li a {
     display: grid;
     grid-template-rows: auto auto;
     justify-items: center;
-    gap: 0.1rem;
-    padding: 0.2rem;
-    padding-top: 2.5%;
+    gap: 10px;
+    padding: 2rem;
+    padding-top: 25%;
 }
 
 .subgrid-formacao img {
@@ -172,14 +172,14 @@ li a {
 }
 
 .logo {
-    padding-left: 2rem;
+    padding-left: 20rem;
 }
 
 .grid-atuacao {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0.5rem;
+    margin-top: 5rem;
 }
 
 .subgrid-1-2,
@@ -193,25 +193,25 @@ li a {
 .grid-2-atuacao,
 .grid-3-atuacao,
 .grid-4-atuacao {
-    margin: 0.1rem;
+    margin: 10px;
     text-align: center;
     flex-direction: row;
 }
 
 .video-atuacao {
-    max-width: 2rem;
-    max-height: 2rem;
+    max-width: 200px;
+    max-height: 200px;
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 0.1rem;
+    margin: 0 auto 10px;
 }
 
 .texto-atuacao {
-    font-size: 0.16rem;
+    font-size: 16px;
     color: #333;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
 }
 
 .contato-info {
@@ -220,37 +220,42 @@ li a {
     justify-content: space-between;
 }
 
+.contato-info p {
+    flex: 0 0 48%;
+    margin-bottom: 10px;
+}
+
 form {
-    max-width: 50rem;
-    margin: 2rem auto;
+    max-width: 500px;
+    margin: 20px auto;
 }
 
 label {
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 5px;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
-    border: 0.1rem solid #ccc;
-    border-radius: 0.4rem;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     box-sizing: border-box;
 }
 
 textarea {
-    height: 10rem;
+    height: 100px;
 }
 
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
-    padding: 1rem 2rem;
+    padding: 10px 20px;
     border: none;
-    border-radius: 0.4rem;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -259,58 +264,54 @@ input[type="submit"]:hover {
 }
 
 .contato-container {
-    max-width: 80rem;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 20px;
 }
 
 .projetos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 20px;
     box-sizing: border-box;
 }
 
 .projeto {
     background-color: #fff;
-    border-radius: 0.8rem;
-    padding: 2rem;
-    margin: 2rem;
-    max-width: 30rem;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
 }
 
 .titulo-projeto {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .descricao-projeto {
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
 }
 
-.tecnologias,
-.empresas {
-    margin-top: 1rem;
+.tecnologias, .empresas {
+    margin-top: 10px;
 }
 
-.tecnologias ul,
-.empresas ul {
+.tecnologias ul, .empresas ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.tecnologias h4,
-.empresas h4 {
-    font-size: 1.6rem;
-    margin-bottom: 0.5rem;
+.tecnologias h4, .empresas h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 
-.tecnologias li,
-.empresas li {
-    margin-bottom: 0.5rem;
-    font-size: 1.4rem;
+.tecnologias li, .empresas li {
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 
 .prading {
